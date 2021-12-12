@@ -2,7 +2,7 @@ version: 2
 jobs:
     aku1:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -11,7 +11,7 @@ jobs:
             no_output_timeout: 259m
     aku2:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -20,7 +20,7 @@ jobs:
             no_output_timeout: 259m
     aku3:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -29,7 +29,7 @@ jobs:
             no_output_timeout: 259m
     aku4:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -38,7 +38,7 @@ jobs:
             no_output_timeout: 259m
     aku5:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -47,7 +47,7 @@ jobs:
             no_output_timeout: 259m
     aku6:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -56,7 +56,7 @@ jobs:
             no_output_timeout: 259m
     aku7:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -65,7 +65,7 @@ jobs:
             no_output_timeout: 259m
     aku8:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -74,7 +74,7 @@ jobs:
             no_output_timeout: 259m
     aku9:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -83,7 +83,7 @@ jobs:
             no_output_timeout: 259m
     aku10:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -92,7 +92,7 @@ jobs:
             no_output_timeout: 259m
     aku11:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -101,7 +101,7 @@ jobs:
             no_output_timeout: 259m
     aku12:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -110,7 +110,7 @@ jobs:
             no_output_timeout: 259m
     aku13:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -119,7 +119,7 @@ jobs:
             no_output_timeout: 259m
     aku14:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -128,7 +128,7 @@ jobs:
             no_output_timeout: 259m
     aku15:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -137,7 +137,7 @@ jobs:
             no_output_timeout: 259m
     aku16:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -146,7 +146,7 @@ jobs:
             no_output_timeout: 259m
     aku17:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -155,7 +155,7 @@ jobs:
             no_output_timeout: 259m
     aku18:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -164,7 +164,7 @@ jobs:
             no_output_timeout: 259m
     aku19:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -173,7 +173,7 @@ jobs:
             no_output_timeout: 259m
     aku20:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -182,7 +182,7 @@ jobs:
             no_output_timeout: 259m
     aku21:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -191,7 +191,7 @@ jobs:
             no_output_timeout: 259m
     aku22:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -200,7 +200,7 @@ jobs:
             no_output_timeout: 259m
     aku23:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -209,7 +209,7 @@ jobs:
             no_output_timeout: 259m
     aku24:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -218,7 +218,7 @@ jobs:
             no_output_timeout: 259m
     aku25:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -227,7 +227,7 @@ jobs:
             no_output_timeout: 259m
     aku26:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -236,7 +236,7 @@ jobs:
             no_output_timeout: 259m
     aku27:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -245,7 +245,7 @@ jobs:
             no_output_timeout: 259m
     aku28:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -254,7 +254,7 @@ jobs:
             no_output_timeout: 259m
     aku29:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
@@ -263,7 +263,7 @@ jobs:
             no_output_timeout: 259m
     aku30:
       docker:
-            - image: couchbase
+            - image: ruby
       resource_class: large
       steps:
         - run:
